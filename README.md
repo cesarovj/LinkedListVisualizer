@@ -1,3 +1,13 @@
+# LinkedListVisualizer
+
+### A simple application to learn the methods of a linked list through visualization!
+
+<img width="1440" alt="Screen Shot 2021-11-05 at 11 43 40 AM" src="https://user-images.githubusercontent.com/72565897/140538484-a56543c3-8488-4e5d-bea2-e65e82a80b85.png">
+<img width="1435" alt="Screen Shot 2021-11-05 at 11 43 58 AM" src="https://user-images.githubusercontent.com/72565897/140538491-6beb155b-2e40-4eaf-af6e-c594d0457833.png">
+
+This project was created using:
+* React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
