@@ -2,6 +2,9 @@
 
 ### A simple application to learn the methods of a linked list through visualization!
 
+The singly linked list has data and a pointer to the next node. The list terminates with a node pointing at null.
+A node class was created in order to help in building the linear list of nodes. Methods were implemented into a linked list class.
+
 <img width="1440" alt="Screen Shot 2021-11-05 at 11 43 40 AM" src="https://user-images.githubusercontent.com/72565897/140538484-a56543c3-8488-4e5d-bea2-e65e82a80b85.png">
 <img width="1435" alt="Screen Shot 2021-11-05 at 11 43 58 AM" src="https://user-images.githubusercontent.com/72565897/140538491-6beb155b-2e40-4eaf-af6e-c594d0457833.png">
 
