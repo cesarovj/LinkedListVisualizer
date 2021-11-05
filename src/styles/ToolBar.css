@@ -1,0 +1,44 @@
+.tool-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(3.75rem, 7.5rem));
+  gap: 2rem;
+  padding: 5rem 0 7rem 0;
+  margin-left: 2%;
+}
+
+.label {
+  display: block;
+  padding-bottom: 0.5rem;
+  color: rgb(241, 240, 240);
+}
+
+.value-input,
+.index-input {
+  height: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: rgb(241, 240, 240);
+  background-color: #222222;
+  width: 5.5rem;
+}
+
+.valid {
+  color: red;
+}
+
+.submit {
+  width: 7.5rem;
+  height: 2.3rem;
+  border-radius: 4px;
+  background-color: #222222;
+  color: rgb(241, 240, 240);
+}
+
+.submit-container {
+  align-self: end;
+  border-radius: 4px;
+}
+
+.submit:hover {
+  background-color: #444444;
+}

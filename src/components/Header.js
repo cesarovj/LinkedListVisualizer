@@ -1,5 +1,12 @@
+import { Link } from 'react-router-dom';
+import '../styles/Header.css';
+
 const Header = () => {
-  return <h1>Linked List Visualizer</h1>;
+  return (
+    <Link to='/' className='header-text'>
+      Linked List Visualizer
+    </Link>
+  );
 };
 
 export default Header;

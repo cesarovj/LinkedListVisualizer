@@ -1,0 +1,50 @@
+.methods-drop-down {
+  position: relative;
+  width: 7.5rem;
+  /* have to change to be responsive */
+  height: 2.3rem;
+  background-color: #222222;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.method-current {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.current-text {
+  color: rgb(241, 240, 240);
+}
+
+.drop-opened {
+  transform: rotate(180deg);
+  transition: 0.3s ease-in-out;
+}
+
+.drop-closed {
+  transform: rotate(0);
+  transition: 0.3s ease-in-out;
+}
+
+.method-list {
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  list-style-type: none;
+}
+
+.method {
+  width: 5.5rem;
+  height: 2.3rem;
+  background-color: #222222;
+  padding: 0.5rem 1rem;
+  color: rgb(241, 240, 240);
+  margin-left: -40px;
+}
+
+.method:hover {
+  background-color: #444444;
+}

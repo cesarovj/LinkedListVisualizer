@@ -1,0 +1,22 @@
+.header-text {
+  background-image: linear-gradient(90deg, rgb(247, 231, 6), rgb(202, 119, 25));
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+  text-decoration: none;
+  font-size: 90px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(241, 240, 240);
+  margin-left: 2%;
+}
+
+.header-text:hover {
+  background-size: 100% 3px;
+}
+
+@media only screen and (max-width: 650px) {
+  .header-text {
+    font-size: 60px;
+  }
+}
