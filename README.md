@@ -1,6 +1,7 @@
 # LinkedListVisualizer
 
 ### A simple application to learn the methods of a linked list through visualization!
+## [Linked List Visualizer](https://fervent-goodall-5572d0.netlify.app/linked_list)
 
 The singly linked list has data and a pointer to the next node. The list terminates with a node pointing at null.
 A node class was created in order to help in building the linear list of nodes. Methods were implemented into a linked list class.
